@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{4C640173-17AD-42D9-9999-068BFA99E89A}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{89EC8866-C873-4683-8B8A-21E4EAE4D0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{63686613-F7E3-48A7-A7DA-028603DC17D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{273D802B-3DE4-444C-B0F2-A66E28BBBF3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomCommand", "CustomCommand", "{F3A8CA51-C013-4FCC-86E9-DFFF190FFD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSitecoreCommand.Feature.CustomCommand", "src\Feature\CustomCommand\code\CustomSitecoreCommand.Feature.CustomCommand.csproj", "{F7BC2992-B038-43AA-88A2-7E494511C067}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{B5BBEDD9-8E6A-4411-9DF2-2499330D8119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSitecoreCommand.Foundation.Serialization", "src\Foundation\code\CustomSitecoreCommand.Foundation.Serialization.csproj", "{1E67BC05-BD60-4C2F-A3FE-53FE4E109718}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7BC2992-B038-43AA-88A2-7E494511C067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BC2992-B038-43AA-88A2-7E494511C067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BC2992-B038-43AA-88A2-7E494511C067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BC2992-B038-43AA-88A2-7E494511C067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E67BC05-BD60-4C2F-A3FE-53FE4E109718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E67BC05-BD60-4C2F-A3FE-53FE4E109718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E67BC05-BD60-4C2F-A3FE-53FE4E109718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E67BC05-BD60-4C2F-A3FE-53FE4E109718}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3A8CA51-C013-4FCC-86E9-DFFF190FFD18} = {63686613-F7E3-48A7-A7DA-028603DC17D4}
+		{F7BC2992-B038-43AA-88A2-7E494511C067} = {F3A8CA51-C013-4FCC-86E9-DFFF190FFD18}
+		{B5BBEDD9-8E6A-4411-9DF2-2499330D8119} = {273D802B-3DE4-444C-B0F2-A66E28BBBF3C}
+		{1E67BC05-BD60-4C2F-A3FE-53FE4E109718} = {B5BBEDD9-8E6A-4411-9DF2-2499330D8119}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A1ACCF9-7869-4A4D-B1EE-9D8F2D49845C}
+	EndGlobalSection
+EndGlobal
